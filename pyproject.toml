@@ -12,3 +12,9 @@ dependencies = [
     "tokenizers>=0.23.1",
     "tqdm>=4.68.3",
 ]
+
+[dependency-groups]
+dev = [
+    "huggingface-hub>=1.21.0",
+    "jupyter>=1.1.1",
+]
